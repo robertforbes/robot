@@ -9,5 +9,5 @@ Example usage from Erlang shell (open serial port and squirt bytes in the approp
 
 SP = serial:start([{speed,9600},{open,"/dev/ttyUSB0"}]).
 
-robot:drive(SP2, 127, 127).
+robot:drive(SP, 127, 127).
 
